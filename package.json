@@ -1,0 +1,22 @@
+{
+  "name": "heap-sort",
+  "version": "1.0.0",
+  "description": "O Heap Sort é uma técnica de ordenação de vetor que utiliza a árvore Heap para realizar a ordenação. O Heap é uma árvore binária onde todo nó pertencente à da árvore, os nós filhos esquerdo e direito tem valor menor ou iqual ao valor do nó pai.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build; node ./dist/main.bundle.js",
+    "watch": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "author": "Alison Moura <alison.oghino@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "ts-loader": "^5.1.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
